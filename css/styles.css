@@ -1,0 +1,57 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Segoe UI Light";
+}
+
+body{
+	background: gray;
+}
+
+span{
+	color:#EC7600;
+}
+
+#contenedor{
+	width: 800px;
+	margin: auto;
+	padding:8px;
+	background: white;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.7);
+}
+
+header{
+	background: #660066;
+	height: 80px;
+	margin-top: -12px;
+	color: white;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.7);
+	padding: 4px;
+	position: relative;
+	word-break:break-all;
+}
+
+section{
+	padding: 16px;
+}
+
+#main{
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+img{
+	width: 120px;
+	height: 120px;
+}
+
+footer{
+	text-align: center;
+	position: relative;
+	background: #660066;
+	color: white;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}

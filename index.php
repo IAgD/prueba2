@@ -1,20 +1,38 @@
-<?php include 'php/header.inc'; ?>
+<?php include 'inc/cabecera.inc'; ?>
 
-		<fieldset>
-			<legend>Ingreso de Usuarios</legend>
-			<form action="bienvenida.php" method="post">
-				Usuario: <input type="text" name="usuario" placeholder="Introduce usario"><br>
-				Contraseña: <input type="text" name="contrasena" placeholder="password"><br>
-				<input type="submit"> <input type="reset">
-			</form>
-		</fieldset>
-		<br>
-		<br>
-		<table>
-			<tr>
-				<td><a href="php/crear.php"><button>Crear</button></a></td>
-				<td><a href="php/listar.php"><button>Listar</button></a></td>	
-			</tr>
-		</table>
+<table id="main">
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Ingresar</legend>
+				<p>
+				   <a href="php/signin.php"><img src="img/Check_Sign-512.png" height="512" width="512"></a>
+				</p>
+			</fieldset>			
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Registrar</legend>
+				<p>
+				   <a href="php/new.php"><img src="img/sign-up-512.png" height="512" width="512"></a>
+				</p>
+			</fieldset>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<fieldset>
+				<legend>Listar / Modificar</legend>
+				<p>
+				   <a href="php/edit_update.php"><img src="img/edit_update.png" height="256" width="256"></a>
+				</p>
+			</fieldset>
+		</td>
+	</tr>
+</table>
 
-<?php include 'php/footer.inc'; ?>
+
+<?php include 'inc/pie.inc'; ?>
+
