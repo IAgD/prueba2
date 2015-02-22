@@ -1,4 +1,3 @@
-# prueba2
 <h1>Creacion de un CRUD</h1>
 
 <p>Este es el repositorio de un CRUD en php con javascript,
